@@ -2,20 +2,32 @@
   border-bottom: 1px solid #3333;
   height: 60px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   background: #ffffff;
 }
+.image-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.instagram {
+  height: 50px;
+}
 .search-form {
-  width: 150px;
+  min-width: 200px;
   font-size: 14px;
 }
 .search-form input {
   text-align: center;
   color: #262626;
 }
-.image-wrapper {
-  height: 50px;
+.image-wrapper,
+.social-wrapper,
+.search-form {
+  min-width: 15%;
+  width: auto;
+  height: auto;
 }
 
 .logo-image {
@@ -24,8 +36,12 @@
 
 .social-wrapper {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.social {
-  width: 50px;
+.social,
+.fa-instagram {
+  width: 30px;
+  font-size: 1.5rem;
 }
