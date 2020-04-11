@@ -17,6 +17,7 @@
 .search-form {
   min-width: 200px;
   font-size: 14px;
+  margin: 0 10px;
 }
 .search-form input {
   text-align: center;
@@ -42,6 +43,6 @@
 
 .social,
 .fa-instagram {
-  width: 30px;
+  width: 35px;
   font-size: 1.5rem;
 }
